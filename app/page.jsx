@@ -12,7 +12,9 @@ export default function page() {
       <div id='about'>
       <About />
       </div>
+      <div id='testimonials'>
       <Testimonials/>
+      </div>
       <div id='contact'>
       <Footer />
       </div>

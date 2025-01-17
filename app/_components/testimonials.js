@@ -41,9 +41,9 @@ export default function Testimonials() {
       ];
       
   return (
-    <div className='font-mono flex flex-col items-center justify-center gap-4 px-4'>
+    <div className='font-mono bg-red-50 py-2 flex flex-col items-center justify-center gap-4 px-4'>
         <hr className='w-1/2 border-4 border-black'/>
-      <h1 className='md:text-4xl text-3xl mt-5 '>Here it from our Customers!</h1>
+      <h1 className='md:text-4xl text-center text-3xl mt-5 '>Here it from our Customers!</h1>
         <AnimatedTestimonials testimonials={testimonials} autoplay={false} />
     </div>
   )

@@ -31,9 +31,9 @@ const Navigationbar = () => {
                 About
                 </div>
             </Link> 
-            <Link href="#projects">
+            <Link href="#testimonials">
                 <div className={sectionstyles}>
-                Projects
+                testimonials
                 </div>
             </Link> 
             <Link href="#contact">
